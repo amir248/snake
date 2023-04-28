@@ -52,9 +52,11 @@ function drawGame(){
     ctx.fillStyle=i ==0?'green':'yellow';
     ctx.fillRect(snake[i].x,snake[i].y, box, box);
   }
-  ctx.fillStyle="white";
+  ctx.fillStyle="red";
   ctx.font='50px Arial';
   ctx.fillText(score, box*7, box*1.5);
+
+
 
   let snakeX = snake[0].x;
   let snakeY= snake[0].y;
@@ -88,4 +90,4 @@ function drawGame(){
 }
 
 
-let game=setInterval(drawGame, 300);
+let game=setInterval(drawGame, 170);
