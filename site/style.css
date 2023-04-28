@@ -5,3 +5,8 @@ body{
   background: linear-gradient(yellow,green);
   min-height: 100vh;
 }
+canvas{
+  display:block;
+  margin: 0 auto;
+  background: green;
+}
